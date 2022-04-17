@@ -2,16 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+/**
+ * En React hay varias maneras de crear componentes.
+ * Como por ejemplo funciones y constantes.
+ */
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  
+  {/* //Ejemplo de Props en App.js
+  // <App saludo="Mi primer hola con Props"/>
+  
+  //Ejemplo manejando App.js como tag
+  // <App>
+  //   <h1>Hola desde App.js</h1>
+  // </App> */}
+
+  <App/>
+
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
