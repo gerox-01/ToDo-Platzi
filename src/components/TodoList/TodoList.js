@@ -5,7 +5,9 @@ function TodoList(props) {
   return (
     <section>
       <ul>
-        {props.children}
+        <div>
+          {props.children}
+        </div>
       </ul>
     </section>
   );

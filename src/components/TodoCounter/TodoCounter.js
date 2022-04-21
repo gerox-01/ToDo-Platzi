@@ -1,9 +1,10 @@
 import React from 'react';
+import './TodoCounter.css';
 
 function TodoCounter(){
     return (
         <>
-            <h2>Has compleado 2 de 3 TODOs</h2>
+            <h2 className="font-semibold p-2 text-2xl text-blue-700">Completed <span className="animate-pulse">3</span> to <span className="animate-pulse">5</span></h2>
         </>
     );
 }

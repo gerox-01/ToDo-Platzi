@@ -13,8 +13,8 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-  {/* //Ejemplo de Props en App.js
+
+    {/* //Ejemplo de Props en App.js
   // <App saludo="Mi primer hola con Props"/>
   
   //Ejemplo manejando App.js como tag
@@ -22,7 +22,9 @@ root.render(
   //   <h1>Hola desde App.js</h1>
   // </App> */}
 
-  <App/>
+    <div className="flex justify-center items-center flex-col h-screen w-screen">
+      <App />
+    </div>
 
   </React.StrictMode>
 );
